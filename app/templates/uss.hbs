@@ -1,0 +1,17 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Welcome!</h2>
+   <ul>
+   
+   {{#each model as |u|}}
+      <li>
+          {{u.id}}   <br/>
+           {{u.roleName}} <br/>
+          {{u.roleLabel}} <br/>
+          {{u.createdAt}} <br/>
+          <hr/>
+      </li>
+    {{/each}}
+   </ul>
+</div>
+{{outlet}}
