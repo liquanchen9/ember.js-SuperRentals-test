@@ -1,7 +1,7 @@
 # Super-rentals
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
+  基于ember.js 官网 super-rentals 示例项目进行 列表查询 原有系统的后台 .[c9 预览](https://ember-ajax-lliquanchen9.c9users.io/)
+  
+  
 Super Rentals is the working repository of the Ember tutorial: https://guides.emberjs.com/v2.9.0/tutorial/ember-cli/
 
 ## Prerequisites
