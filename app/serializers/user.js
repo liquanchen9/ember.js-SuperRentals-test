@@ -18,7 +18,7 @@ export default DS.JSONAPISerializer.extend({
                     typePayload.data[i]['attributes'][key]=_this[key];
                 }
             }
-            typePayload.data[i]['type']='user';
+            typePayload.data[i]['type']='user';//这里是这个json对应的modal名称
         }
         return this._super(store, primaryModelClass, typePayload, id, requestType);
       },
